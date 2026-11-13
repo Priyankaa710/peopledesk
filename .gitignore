@@ -1,0 +1,19 @@
+# Build output
+target/
+*.war
+
+# Your private database settings (never commit real passwords)
+src/main/resources/config.properties
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+
+# OS files
+.DS_Store
+Thumbs.db
